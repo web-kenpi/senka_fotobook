@@ -1,0 +1,118 @@
+body {
+  font-family: "Rounded-X M+ 1c";
+  font-size: 20px;
+  margin: 0;
+  background-color: rgb(92, 255, 92);
+}
+
+.container {
+  padding: 32px;
+}
+
+.messages {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.messages li {
+  display: flex;
+}
+
+.messages li + li {
+  margin-top: 32px;
+}
+
+li.right-side {
+  flex-direction: row-reverse;
+  margin-right: 13%;
+}
+
+li.left-side {
+  margin-left: 7%;
+}
+
+.senka {
+  width: 80px;
+  text-align: center;
+}
+
+.senka,
+img {
+  margin: 0 8px;
+  height: 260px;
+  width: auto;
+  border-radius: 15px;
+}
+
+.text {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 16px 24px;
+  max-width: 60%;
+  line-height: 1.8;
+  position: relative;
+  height: 50%;
+}
+
+.text::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  position: absolute;
+}
+
+.left-side .text::before {
+  top: 40px;
+  left: -16px;
+  border-right-color: #fff;
+}
+
+.right-side .text::before {
+  top: 40px;
+  right: -16px;
+  border-left-color: #fff;
+}
+
+.foo {
+  display: flex;
+  justify-content: space-around;
+}
+.baz,
+.bar,
+a {
+  color: #333;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button:hover {
+  color: #ebbd59;
+  font-size: 34px;
+  transition: all 0.3s;
+}
+
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+}
+
+#page_top a {
+  background-color: rgb(52, 140, 255);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+#page_top a:hover {
+  background-color: rgb(79, 229, 255);
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 34px;
+}

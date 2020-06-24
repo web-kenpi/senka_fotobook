@@ -1,0 +1,57 @@
+body {
+  font-family: 'Rounded-X M+ 1c';
+  margin: 0;
+  background: rgb(227, 252, 255);
+}
+
+.mean {
+  text-align: center;
+}
+
+.mean h1 {
+  font-size: 3em;
+  text-shadow: 3px 3px 5px plum;
+}
+
+.mean p {
+  font-size: 2em;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+}
+
+.foto img {
+  margin: 30px;
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+.mean h2 {
+  font-size: 3em;
+  text-shadow: 2px 2px 4px skyblue;
+}
+
+.mean img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+.mean p a {
+  text-decoration: none;
+  background-color: #333;
+  border: 2px solid #333;
+  color: #fff;
+  padding: 5px;
+}
+
+.mean p a:hover {
+  border-radius: 30px;
+  background-color: #fff;
+  border-color: #59b1eb;
+  color: #59b1eb;
+  transition: all .3s;
+}
