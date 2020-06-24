@@ -1,12 +1,12 @@
 body {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-family: "Rounded-X M+ 1c";
   background-color: rgb(230, 252, 255);
 }
 
 img {
-  width: 350px;
+  width: 90%;
   border-radius: 8px;
 }
 
