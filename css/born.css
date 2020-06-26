@@ -1,0 +1,163 @@
+body {
+  font-family: "Rounded-X M+ 1c", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 55%;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li a {
+  font-size: 1.5vw;
+  display: inline-block;
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+  padding: 7px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+}
+
+.menu li a.active {
+  background: royalblue;
+  color: #fff;
+}
+
+.menu li a:not(.active):hover {
+  opacity: 0.5;
+  transition: opacity 0.4s;
+}
+
+.content.active {
+  background: royalblue;
+  color: #fff;
+  min-height: 150px;
+  display: block;
+}
+
+.content {
+  display: none;
+}
+
+.section,
+p {
+  font-size: 1.5vw;
+  padding-bottom: 8px;
+  color: aliceblue;
+  margin: 0;
+  line-height: 1.8;
+  text-align: center;
+  background-color: royalblue;
+}
+
+h1 {
+  font-size: 3.5vw;
+  cursor: pointer;
+  max-width: 90%;
+  color: black;
+  padding: 0.2em 0.5em;
+  margin: 2em auto;
+  background: #ffeaea;
+  box-shadow: 0px 0px 0px 10px #ffeaea;
+  border: dashed 2px tomato;
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1:hover {
+  border-radius: 30px;
+  color: #fff;
+  transition: 0.3s;
+  background-color: palevioletred;
+  box-shadow: 0px 0px 0px 10px white;
+}
+
+.foo {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#close {
+  cursor: pointer;
+  background: #fff;
+  width: 200px;
+  border: 3px solid #ffc3c3;
+  border-radius: 8px;
+  text-align: center;
+  padding: 12px 0;
+  margin: 16px auto 60px;
+}
+
+#mask {
+  background: rgb(242, 255, 60);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#modal {
+  border-radius: 8px;
+  padding: 30px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+#modal p {
+  font-size: 2vw;
+
+}
+
+#mask.hidden {
+  display: none;
+}
+
+#modal.hidden {
+  transform: translate(0, -2000px);
+}
+
+#close:hover {
+  background: rgb(224, 224, 224);
+  font-size: 22px;
+}
+
+.hoge {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.baz 
+.bar,
+a {
+  padding: 10px 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3.5vw;
+  color: #333;
+  text-decoration: none;
+  list-style: none;
+}
+
+.button:hover {
+  padding: 5px 10px;
+  border: 3px solid gold;
+  color: #59b1eb;
+  transition: all 0.3s;
+  border-radius: 8px;
+}

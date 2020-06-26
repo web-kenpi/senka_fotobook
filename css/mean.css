@@ -1,0 +1,68 @@
+body {
+  font-family: 'Rounded-X M+ 1c', Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  background: rgb(227, 252, 255);
+}
+
+.mean h1 {
+  font-size: 5vw;
+  text-align: center;
+  text-shadow: 3px 3px 5px plum;
+}
+
+.mean p {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+}
+
+.foto img {
+  margin: 5px;
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+.mean h2 {
+  font-size: 4vw;
+  text-align: center;
+  text-shadow: 2px 2px 4px skyblue;
+}
+
+.mean .bar, .baz {
+  text-align: center;
+}
+
+.mean img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mean p a {
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  background-color: pink;
+  border: 2px solid plum;
+  color: #fff;
+  padding: 5px;
+}
+
+.mean p a:hover {
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #fff;
+  border-color: #59b1eb;
+  color: #59b1eb;
+  transition: all .3s;
+}
