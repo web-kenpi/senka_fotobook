@@ -1,0 +1,118 @@
+body {
+  font-family: "Rounded-X M+ 1c", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(92, 255, 92);
+}
+
+.container {
+  padding: 32px 60px;
+}
+
+.messages {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.messages li {
+  display: flex;
+}
+
+.messages li + li {
+  margin-top: 32px;
+}
+
+li.right-side {
+  flex-direction: row-reverse;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+li.left-side {
+  margin-left: 8%;
+}
+
+.senka {
+  text-align: center;
+}
+
+.senka,
+img {
+  margin: 35px 0 0 0;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.text {
+  margin-top: 60px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 14px 20px;
+  max-width: 60%;
+  line-height: 1.8;
+  position: relative;
+  height: 50%;
+}
+
+.text::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  position: absolute;
+}
+
+.left-side .text::before {
+  top: 30px;
+  left: -16px;
+  border-right-color: #fff;
+}
+
+.right-side .text::before {
+  top: 30px;
+  right: -16px;
+  border-left-color: #fff;
+}
+
+.foo {
+  display: flex;
+  justify-content: space-around;
+}
+.baz,
+.bar,
+a {
+  color: #333;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button:hover {
+  color: #ebbd59;
+  font-size: 34px;
+  transition: all 0.3s;
+}
+
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+}
+
+#page_top a {
+  background-color: rgb(52, 140, 255);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+#page_top a:hover {
+  background-color: rgb(79, 229, 255);
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 34px;
+}
