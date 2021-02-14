@@ -1,13 +1,12 @@
 body {
   font-family: "Rounded-X M+ 1c", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2vw;
+  font-size: 3vw;
   margin: 0;
   padding: 0;
-  background-color: rgb(92, 255, 92);
 }
 
 .container {
-  padding: 32px 60px;
+  padding: 20px 20px;
 }
 
 .messages {
@@ -26,12 +25,12 @@ body {
 
 li.right-side {
   flex-direction: row-reverse;
-  margin-right: 10%;
+  /* margin-right: 10%; */
   margin-top: 5%;
 }
 
 li.left-side {
-  margin-left: 8%;
+  /* margin-left: 8%; */
 }
 
 .senka {
@@ -41,7 +40,7 @@ li.left-side {
 .senka,
 img {
   margin: 35px 0 0 0;
-  width: 70%;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -49,30 +48,30 @@ img {
   margin-top: 60px;
   background: #fff;
   border-radius: 8px;
-  padding: 14px 20px;
-  max-width: 60%;
+  /* padding: 14px 20px; */
+  max-width: 100%;
   line-height: 1.8;
-  position: relative;
+  /* position: relative; */
   height: 50%;
 }
 
 .text::before {
-  content: "";
+  /* content: ""; */
   width: 0;
   height: 0;
   border: 8px solid transparent;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .left-side .text::before {
   top: 30px;
-  left: -16px;
+  /* left: -16px; */
   border-right-color: #fff;
 }
 
 .right-side .text::before {
   top: 30px;
-  right: -16px;
+  /* right: -16px; */
   border-left-color: #fff;
 }
 

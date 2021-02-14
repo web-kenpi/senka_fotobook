@@ -5,14 +5,15 @@ body {
 
 .main {
   text-align: center;
-  width: 95%;
+  margin: auto;
+  width: 100%;
 }
 
 .main img {
-  text-align: center;
+  /* text-align: center; */
   border-radius: 8px;
   border: solid 13px rgb(0, 153, 255);
-  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3); */
 }
 
 .foo {
@@ -24,7 +25,7 @@ ul {
   list-style: none;
   line-height: 2;
   text-align: center;
-  font-size: 2.0vw;
+  font-size: 5vw;
   color: rgba(0, 0, 0, 0);
   text-shadow: 1px 1px 0 rgb(80, 191, 255);
   -webkit-text-stroke: 1px rgb(105, 105, 105);
@@ -38,11 +39,12 @@ ul {
   color: rgb(255, 149, 167);
   text-shadow:1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;
   -webkit-text-stroke: 1px #888;
-  font-size: 1.6vw;
-  position: absolute;
+  font-size: 3vw;
+  /* position: absolute; */
   top: 0;
   right: 3%;
   margin: 5px 20px 0 0;
+  text-align: center;
 }
 
 img {
@@ -56,6 +58,7 @@ img {
   text-shadow:1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;
   position: absolute;
   right: 5%;
+  padding-top: 0;
 }
 
 a {
